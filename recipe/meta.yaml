@@ -1,5 +1,5 @@
 {% set name = "cadwyn" %}
-{% set version = "5.3.3" %}
+{% set version = "5.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cadwyn-{{ version }}.tar.gz
-  sha256: 67a03bde7652590e38b9a2d95a9dce65bf9e89f278861c8c094f30e819aba94c
+  sha256: e193819e04af79fb7a4970afc5e41ab659b3c38d38acfcc307e721f7449e8e72
 
 build:
   noarch: python
@@ -25,11 +25,12 @@ requirements:
     - python >={{ python_min }}
     - fastapi >=0.112.4
     - starlette >=0.30.0
-    - pydantic >=2.0.0
+    - pydantic >=2.11.0
     - jinja2 >=3.1.2
     # for all python to stay noarch: python
     - backports.strenum >=1.3.1,<2
     - typing_extensions >=4.8.0
+    - typing-inspection >=0.4.0
 
 test:
   imports:
