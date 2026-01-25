@@ -1,5 +1,5 @@
 {% set name = "cadwyn" %}
-{% set version = "6.0.0" %}
+{% set version = "6.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cadwyn-{{ version }}.tar.gz
-  sha256: 62854fb37b3df708b30a1feb69a75d2827955e1d687ab1d8205c90fb6ef894b5
+  sha256: 9ce6affe2c01c7b35971cdeaa7ff57675ec6626b4fe6a7f1c830e021db76aa82
 
 build:
   noarch: python
