@@ -33,7 +33,8 @@ requirements:
     - jinja2 >=3.1.2
     - typing_extensions >=4.8.0
     - typing-inspection >=0.4.0
-    - backports-strenum >=1.3.1,<2
+    # for all python to stay noarch: python
+    - backports.strenum >=1.3.1,<2
 tests:
   - python:
       imports:
