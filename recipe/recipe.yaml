@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: cadwyn
-  version: "7.1.1"
+  version: "7.1.2"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/cadwyn-${{ version }}.tar.gz
-  sha256: e9e65f97ae8251b1e6f26566be7327b7afe10b8b6cf544487a30aa820ec585ef
+  sha256: c27ae271ec0bbf3682f14400bf099175568a2c939ec24719321075a324b24106
 
 build:
   number: 0
