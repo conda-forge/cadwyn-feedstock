@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: cadwyn
-  version: "7.4.0"
+  version: "8.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/cadwyn-${{ version }}.tar.gz
-  sha256: a39c1a4671f1a3a1a0bfaad505db3ff9025b06e7dbbf561b61162489327b6354
+  sha256: 66ac4c635d04607c2599170bc8c6b1cddba5e725df121c22809044b7f0becc9a
 
 build:
   number: 0
@@ -29,7 +29,7 @@ requirements:
     - python >=${{ python_min }}
     - fastapi >=0.137.1
     - starlette >=0.30.0
-    - pydantic >=2.11.0
+    - pydantic >=2.11.5
     - jinja2 >=3.1.2
     - typing_extensions >=4.8.0
     - typing-inspection >=0.4.0
