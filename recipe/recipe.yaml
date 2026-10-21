@@ -29,7 +29,7 @@ requirements:
     - python >=${{ python_min }}
     - fastapi >=0.137.1
     - starlette >=0.30.0
-    - pydantic >=2.11.0
+    - pydantic >=2.11.5
     - jinja2 >=3.1.2
     - typing_extensions >=4.8.0
     - typing-inspection >=0.4.0
