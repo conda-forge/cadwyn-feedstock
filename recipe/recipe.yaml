@@ -27,6 +27,7 @@ requirements:
     - hatchling
   run:
     - python >=${{ python_min }}
+    - cadwyn-core ==9.1.0
     - fastapi >=0.137.1
     - starlette >=0.30.0
     - pydantic >=2.12.0
